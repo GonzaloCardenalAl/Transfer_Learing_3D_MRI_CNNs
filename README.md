@@ -18,7 +18,7 @@ And 2 Transfer Learning Approaches:
 
 - Folder `dataloaders`: scripts for loading the different datasets from `/ritter/share/data` and creating the `.h5` files. These functions abstract-away the dataset-specifics by creating a dataloader class that handles dataset-specifics within it and creates h5 tables of a standardized format:
 - Folder `CNNpipeline`: scripts for running Deep learning CNN model training on the `.h5` files.    
-    + To run a training add all models configurations in a .py file in `Config Folder. Then, run: 
+    + To run a training add all models configurations in a .py file in `Config` Folder. Then, run: 
     ` nohup python runCNNpipeline.py 'config.py' &> 'config.py'.out & `
     
 
